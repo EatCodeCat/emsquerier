@@ -1,5 +1,4 @@
 .project
-*/node-log.log
 logs/*.log
 *.log
 !.gitignore
@@ -11,6 +10,7 @@ node_modules/*
 *.swp
 *.sublime-project
 *.sublime-workspace
+*.pyc
 lib/doc/
 lib-cov/
 coverage.html
