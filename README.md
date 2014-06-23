@@ -4,7 +4,7 @@
 
 ###  接口http://youhost/emsquery/id
 	 HTTP请求方式 GET;
-	 请求参数： id String
+	 请求参数： id type: String
 	 返回结果格式: json；
 	 result: {code:Number, data:Object, reason:Number};
 	 说明：code:0 成功，-1 失败 data:物流信息，reason: 1. 验证码错误，2. 请求错误，3. 网络错误, 4. 系统错误
@@ -14,7 +14,7 @@
 	 
 ###  接口http://youhost/emsbatchquery/ids		
 	 HTTP请求方式 GET;
-	 请求参数： id type: String
+	 请求参数： ids type: String 说明：物流单号字符串,分割(例：RC239790185CN,RC239790185CN)
 	 返回结果格式: json；
 	 示例:
 	 {1: {code: 0,
